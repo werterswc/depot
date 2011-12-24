@@ -41,3 +41,5 @@ gem 'jquery-rails'
 group :test do
   gem 'turn', '< 0.8.3'
 end
+
+gem 'will_paginate', '~> 3.0'

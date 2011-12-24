@@ -2,7 +2,7 @@
 
 one:
   product_id: 1
-  cart_id: 1
+  cart_id: one
 
 two:
   product_id: 1

@@ -1,25 +1,25 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Title:</b>
+  <b>Название:</b>
   <%= @product.title %>
 </p>
 
 <p>
-  <b>Description:</b>
+  <b>Описание:</b>
   <%= @product.description %>
 </p>
 
 <p>
-  <b>Image url:</b>
+  <b>Адрес картинки:</b>
   <%= @product.image_url %>
 </p>
 
 <p>
-  <b>Price:</b>
+  <b>Цена:</b>
   <%= @product.price %>
 </p>
 
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Редактировать', edit_product_path(@product) %> |
+<%= link_to 'Назад', products_path %>

@@ -1,4 +1,4 @@
-<h1>Listing products</h1>
+<h1>Список товара</h1>
 
 <table>
 	<% @products.each do |product| %>
@@ -14,9 +14,9 @@ length: 80) %></dd>
 				</dl> 
 			</td>
 			<td class="list_actions">
-			<%= link_to 'Show', product %><br/>
-    		<%= link_to 'Edit', edit_product_path(product) %><br/>
-    		<%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %>
+			<%= link_to 'Просмотр', product %><br/>
+    		<%= link_to 'Редактировать', edit_product_path(product) %><br/>
+    		<%= link_to 'Удалить', product, confirm: 'Вы уверены, что хотите удалить?', method: :delete %>
 			</td>
   		</tr>
 <% end %>
@@ -24,4 +24,4 @@ length: 80) %></dd>
 
 <br />
 
-<%= link_to 'New Product', new_product_path %>
+<%= link_to 'Добавить товар', new_product_path %>
